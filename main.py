@@ -10,8 +10,8 @@ async def hello(mes):
 
 @dp.message_handler()
 async def hello(mes):
-    await bot.send_message(-1002078246436, 'К вам новое обращение.')
-    await bot.send_message(-1002078246436, mes.text)
+    await bot.send_message(-4002481368, 'К вам новое обращение.')
+    await bot.send_message(-4002481368, mes.text)
 
 
 if __name__ == '__main__':
